@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: white;
 }
 
 nav {
@@ -16,6 +15,7 @@ nav {
     align-items: center;
     padding: 20px 30px;
     background-color: black;
+    z-index: 2;
 }
 
 nav h1 {
@@ -45,34 +45,101 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.068);
 }
 body{
-    background-color: w;
+    background-color: #884da7;
+}
+.PageRemy{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+    top: 250px;
 }
 
 .section{
-    background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(21, 21, 26, 0.37);
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-width: 70%;
+width: max-content;
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+
 
 
 
 }
-.PageRemy{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    position: absolute;
-    margin-top: 100px;
-}
+
+
 
 .titre{
     color: white;
+}
+.imagePres{
+    width: 50%;
+    margin: 40px;
+}
+.profil{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+.listePres{
+    display: flex;
+    flex-direction:column;
+    list-style: circle;
+
+}
+.projet{
+    width: fit-content;
+    padding: 20px
+
+}
+.passion{
+    overflow: hidden;
+    width: 70%;
+}
+.ProjetetPassions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    width: fit-content;
+}
+.galerie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   width: fit-content;
+}
+.imagegalerie{
+    width: 40%;
+  
+}
+.photoProjo{
+    width: 30%;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width : 814px)  {
+    .section{
+        width:70%;
+       
+    }
+    .galerie{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
