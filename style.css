@@ -45,6 +45,9 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.068);
 }
+body{
+    background-color: #702963;
+}
 .PageRemy{
     z-index: 1;
     position: relative;
@@ -59,7 +62,7 @@ nav ul li a:hover {
 .section{
 
 background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+box-shadow: 0 8px 32px 0 rgba(21, 21, 26, 0.37);
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
@@ -95,15 +98,16 @@ padding: 20px;
 .listePres{
     display: flex;
     flex-direction:column;
+    list-style: circle;
 
 }
 .projet{
     width: fit-content;
-    padding: 0px 20px 0px 20px;
+    padding: 20px
 
 }
 .passion{
- 
+    overflow: hidden;
     width: 70%;
 }
 .ProjetetPassions{
@@ -120,6 +124,20 @@ padding: 20px;
    width: fit-content;
 }
 .imagegalerie{
-    width: 10%;
+    width: 40%;
   
+}
+
+/*RESPONSIVE*/
+
+@media (max-width : 814px)  {
+    .section{
+        width:70%;
+       
+    }
+    .galerie{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
