@@ -46,7 +46,7 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.068);
 }
 body{
-    background-color: #702963;
+    background-color: #884da7;
 }
 .PageRemy{
     z-index: 1;
@@ -126,6 +126,9 @@ padding: 20px;
 .imagegalerie{
     width: 40%;
   
+}
+.photoProjo{
+    width: 30%;
 }
 
 /*RESPONSIVE*/
