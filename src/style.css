@@ -37,6 +37,21 @@ nav {
     list-style: none;
     color: #ffffff;
 }
+.hobbies {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.movie {
+    color: #ffffff;
+    text-align: center;
+}
+.poster {
+    height: 600px;
+}
+
 nav h1 {
     font-size: 2rem;
 }
@@ -62,3 +77,48 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.068);
 }
+
+.navPhone {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navPhone input {
+    display: none;
+}
+
+.navPhone ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    transform: translateX(-300px);
+    transition: all 0.3s ease;
+}
+
+.navPhone #menu:checked ~ ul {
+    transform: translateX(0);
+}
+
+.navPhone ul li a {
+    margin-left: 0;
+    padding: 0;
+}
+
+.navPhone label img {
+    height: 50px;
+    filter: invert();
+}
+
+@media only screen and (max-width: 600px) {
+    .navPhone {
+        display: flex;
+    }
+
+    .navDesk {
+        display: none;
+    }
+  }
