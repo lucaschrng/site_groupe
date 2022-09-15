@@ -7,6 +7,41 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navPhone {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navPhone input {
+    display: none;
+}
+
+.navPhone ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    transform: translateX(-300px);
+    transition: all 0.3s ease;
+}
+
+.navPhone #menu:checked ~ ul {
+    transform: translateX(0);
+}
+
+.navPhone ul li a {
+    margin-left: 0;
+    padding: 0;
+}
+
+.navPhone label img {
+    height: 50px;
+    filter: invert();
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -101,3 +136,13 @@ nav ul li a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.08);
 }
+
+@media only screen and (max-width: 600px) {
+    .navPhone {
+        display: flex;
+    }
+
+    .navDesk {
+        display: none;
+    }
+  }
