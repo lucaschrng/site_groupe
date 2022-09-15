@@ -30,6 +30,13 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.detail {
+    color: #ffff;
+}
+.hobbylist {
+    list-style: none;
+    color: #ffffff;
+}
 nav h1 {
     font-size: 2rem;
 }
