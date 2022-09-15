@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+nav h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.068);
+}
+
+.pageFanny {
+    background-color: rgb(23, 23, 23);
+    color: #fff;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.page1 img {
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 100%;
+}
+
+.right1 h2 {
+    font-size: 4rem;    
+}
+
+.right1 h3 {
+    font-weight: 500;
+    opacity: 0.8;
+}
