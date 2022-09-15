@@ -100,13 +100,26 @@ padding: 20px;
 .projet{
     width: fit-content;
     padding: 0px 20px 0px 20px;
-    
-}
 
+}
+.passion{
+ 
+    width: 70%;
+}
 .ProjetetPassions{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
     width: fit-content;
+}
+.galerie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   width: fit-content;
+}
+.imagegalerie{
+    width: 10%;
+  
 }
