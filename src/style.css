@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.pageLucas {
+    background-color: #111509;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,6 +16,20 @@ nav {
     padding: 20px 30px;
 }
 
+.projectname {
+    color: #ffffff;
+}
+
+.pfp {
+    height: 300px;
+    width: 300px;
+}
+.lucaspfp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 nav h1 {
     font-size: 2rem;
 }
