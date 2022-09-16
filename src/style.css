@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.pageLucas {
+    background-color: #111509;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.projectname {
+    color: #ffffff;
+}
+
+.pfp {
+    height: 300px;
+    width: 300px;
+}
+.lucaspfp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detail {
+    color: #ffff;
+}
+.hobbylist {
+    list-style: none;
+    color: #ffffff;
+}
+.hobbies {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.movie {
+    color: #ffffff;
+    text-align: center;
+}
+.poster {
+    height: 600px;
+}
+.iimProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iim {
+    height: 900px;
+}
+.projectName {
+    color: #ffffff;
+}
+nav h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.068);
+}
+
+.navPhone {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navPhone input {
+    display: none;
+}
+
+.navPhone ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    transform: translateX(-300px);
+    transition: all 0.3s ease;
+}
+
+.navPhone #menu:checked ~ ul {
+    transform: translateX(0);
+}
+
+.navPhone ul li a {
+    margin-left: 0;
+    padding: 0;
+}
+
+.navPhone label img {
+    height: 50px;
+    filter: invert();
+}
+
+@media only screen and (max-width: 600px) {
+    .navPhone {
+        display: flex;
+    }
+
+    .navDesk {
+        display: none;
+    }
+  }
