@@ -85,9 +85,6 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.068);
 }
 
-body{
-    background-color: #884da7;
-}
 .PageRemy{
     z-index: 1;
     position: relative;
