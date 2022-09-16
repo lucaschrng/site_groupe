@@ -5,9 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
-    color: white;
-=======
+
+    
 }
 
 .navPhone {
@@ -43,7 +42,7 @@
 .navPhone label img {
     height: 50px;
     filter: invert();
->>>>>>> page_fanny
+
 }
 
 nav {
@@ -53,10 +52,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-<<<<<<< HEAD
+
     background-color: black;
-=======
->>>>>>> page_fanny
+
 }
 
 nav h1 {
@@ -67,10 +65,8 @@ nav ul {
     display: flex;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> page_fanny
+
 nav ul li {
     list-style: none;
 }
@@ -88,7 +84,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.068);
 }
-<<<<<<< HEAD
+
 body{
     background-color: w;
 }
@@ -108,8 +104,15 @@ flex-direction: column;
 
 }
 .PageRemy{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
     
-=======
+    top: 250px;
+}
 
 .pageFanny {
     background-color: rgb(23, 23, 23);
@@ -142,12 +145,10 @@ flex-direction: column;
 
 .page2 {
     padding: 10vh 20vw;
->>>>>>> page_fanny
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     gap: 50px;
     position: absolute;
     margin-top: 100px;
@@ -156,7 +157,7 @@ flex-direction: column;
 .titre{
     color: white;
 }
-=======
+
 }
 
 .page2 h2 {
@@ -191,4 +192,4 @@ flex-direction: column;
         display: none;
     }
   }
->>>>>>> page_fanny
+
