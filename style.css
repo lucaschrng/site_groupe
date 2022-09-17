@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
 }
 
 .navPhone input {
@@ -52,7 +53,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-
+    z-index: 2;
     background-color: black;
 
 }
@@ -84,7 +85,9 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.068);
 }
-
+.photoProjo{
+    width: 50%;
+}
 .PageRemy{
     z-index: 1;
     position: relative;
@@ -203,6 +206,9 @@ padding: 20px;
 
     .navDesk {
         display: none;
+    }
+    .section{
+        width: min-content;
     }
   }
 
