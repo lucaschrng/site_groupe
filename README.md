@@ -8,5 +8,5 @@
 ---
 
 ## Pour découvrir notre projet
-1. Vous pouvez cliquer sur ce [lien](https://lucaschrng.github.io/site_groupe/)
+1. Vous pouvez cliquer sur ce [lien](https://lucaschrng.github.io/site_groupe/PageFanny.html)
 2. Ou vous pouvez télécharger les fichiers et les ouvrir dans votre navigateur
